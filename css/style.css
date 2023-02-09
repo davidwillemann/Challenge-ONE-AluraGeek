@@ -1,0 +1,553 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+}
+
+.topo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  max-width: 1500px;
+  height: 110px;
+  background: #ffffff;
+}
+
+.topoEsquerda {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 2rem;
+}
+
+.inputGrup {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 393px;
+  height: 40px;
+  background: #f5f5f5;
+  border-radius: 20px;
+  padding-right: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.barraPesquisar {
+  width: 393px;
+  padding-left: 1rem;
+  border: none;
+  outline: none;
+  background-color: #f5f5f5;
+  color: #a2a2a2;
+  font-family: "Raleway", sans-serif;
+}
+
+.iconePesquisa {
+  color: #a2a2a2;
+}
+
+.login {
+  width: 182px;
+  height: 51px;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  color: #2a7ae4;
+  padding-top: 10px;
+  background-color: transparent;
+  border: 1px solid #2a7ae4;
+  box-sizing: border-box;
+  margin-left: 150px;
+  text-decoration: none;
+}
+
+.login:hover {
+  background-color: #d4e4fa;
+}
+
+.textBanner {
+  font-family: "Raleway";
+  font-weight: 700;
+}
+
+.tituloBanner {
+  font-size: 52px;
+  margin: 8px 0px;
+}
+
+.descricaobanner {
+  font-size: 22px;
+  margin: 8px 0px;
+}
+
+.btnConsoles {
+  margin: 8px 0px;
+  font-family: "Raleway";
+  font-size: 16px;
+  width: 130px;
+  height: 51px;
+  background: #2a7ae4;
+  color: #ffffff;
+  border: none;
+}
+
+.btnConsoles:hover {
+  background: #5595e9;
+}
+
+.produtos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1463px;
+  padding: 0px;
+  margin-bottom: 70px;
+}
+
+.lista-produtos {
+  display: flex;
+  justify-content: space-between;
+  width: 1160px;
+  padding: 0px;
+}
+
+.cabecalho-produtos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.classe-produto {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 32px;
+  color: #464646;
+  margin-bottom: 16px;
+  margin-top: 64px;
+}
+
+.ver-tudo {
+  margin-top: 84px;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 16px;
+  color: #2a7ae4;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.nome-produto {
+  font-family: "Raleway";
+  font-weight: 500;
+  font-size: 14px;
+  color: #464646;
+  margin: 4px 0px;
+}
+
+.preco-produto {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 16px;
+  color: #464646;
+  margin: 4px 0px;
+}
+
+.ver-produto {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 16px;
+  color: #2a7ae4;
+  margin: 4px 0px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.footer {
+  width: 100%;
+  height: 368px;
+  background-color: #eaf2fd;
+  padding: 55px 0;
+}
+
+.footer-conteudo {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1400px;
+  margin: 0 40px;
+}
+
+.logo-footer {
+  width: 156px;
+  height: 51px;
+}
+
+.footer-informacoes {
+  font-family: "Raleway";
+  font-weight: 500;
+  font-size: 16px;
+  color: #464646;
+  text-decoration: none;
+  cursor: pointer;
+  margin-bottom: 12px;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-titulo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 16px;
+  color: #464646;
+  text-decoration: none;
+  margin-bottom: -10px;
+}
+
+.form-nome {
+  width: 560px;
+  height: 56px;
+  background: #ffffff;
+  border-radius: 4px;
+  border: none;
+  padding: 0.2rem 0.65rem;
+  margin-bottom: -10px;
+  box-shadow: 0px 1px #a2a2a2;
+}
+
+.form-nome-label {
+  font-family: "Raleway";
+  font-size: 12px;
+  left: 0.65rem;
+  position: relative;
+  top: 2rem;
+  color: #a2a2a2;
+}
+
+.form-mensagem {
+  width: 565px;
+  height: 82px;
+  background: #ffffff;
+  border-radius: 4px;
+  border: none;
+  margin: 8px 0;
+  padding: 1.5rem 0.65rem;
+  box-shadow: 0px 1px #a2a2a2;
+}
+
+.form-mensagem-label {
+  font-family: "Raleway";
+  font-size: 14px;
+  left: 0.65rem;
+  position: relative;
+  top: 2.2rem;
+  color: #a2a2a2;
+  overflow: hidden;
+}
+
+.form-submit {
+  width: 165px;
+  height: 51px;
+  background-color: #2a7ae4;
+  color: #ffffff;
+  border: none;
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.form-submit:hover {
+  background: #5595e9;
+}
+
+.footer-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 102px;
+  width: 100%;
+  background-color: #ffffff;
+  font-family: "Raleway";
+  font-weight: 500;
+  font-size: 16px;
+  color: #464646;
+  line-height: 1rem;
+}
+
+.footer-info-text {
+  margin-top: 2rem;
+  margin-bottom: 0.2rem;
+}
+
+.main-login {
+  height: 500px;
+  width: 100%;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titulo-login {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 18px;
+  color: #464646;
+  text-decoration: none;
+  margin-top: 80px;
+  /*margin-bottom: -10px;*/
+}
+
+.form-email,
+.form-senha {
+  width: 425px;
+  height: 64px;
+  border: none;
+  background: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0px 1px #a2a2a2;
+  font-family: "Raleway";
+  font-size: 16px;
+  color: #a2a2a2;
+  margin-bottom: 24px;
+  padding-left: 0.5rem;
+}
+
+.form-submit-login {
+  width: 425px;
+  height: 64px;
+  border: none;
+  background-color: #2a7ae4;
+  color: #ffffff;
+  font-family: "Raleway";
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.form-submit-login:hover {
+  background: #5595e9;
+}
+
+.main-verProduto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f5f5f5;
+  padding: 64px 0;
+}
+
+.destaque {
+  display: flex;
+}
+
+.produto-destaque-img {
+  width: 560px;
+  height: 403px;
+}
+
+.produto-destaque {
+  display: flex;
+  flex-direction: column;
+  padding-top: 52px;
+}
+
+.produto-destaque-titulo {
+  font-family: "Raleway";
+  font-weight: 500;
+  font-size: 52px;
+  color: #464646;
+  margin: 4px 18px;
+}
+
+.produto-destaque-preco {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 16px;
+  color: #464646;
+  margin: 4px 18px;
+}
+
+.produto-destaque-descricao {
+  width: 560px;
+  height: 115px;
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 16px;
+  color: #464646;
+  margin: 4px 18px;
+}
+
+.produtos-similares {
+  align-self: flex-start;
+  margin-left: 11.1rem;
+}
+
+.main-todosProdutos {
+  background-color: #f5f5f5;
+}
+
+.adicionar-produtos {
+  width: 170px;
+  height: 50px;
+  border: none;
+  background-color: #2a7ae4;
+  color: #ffffff;
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 12px 15px;
+  margin-top: 60px;
+}
+
+.adicionar-produtos:hover {
+  color: #ffffff;
+  background: #5595e9;
+}
+
+.todosprodutos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1463px;
+  margin-bottom: 0;
+  padding-bottom: 60px;
+}
+
+.lista-todosprodutos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1160px;
+  padding: 0px;
+}
+
+.id-produto {
+  font-family: "Raleway";
+  font-weight: 500;
+  padding-bottom: 30px;
+}
+
+.titulo-add {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 32px;
+  color: #464646;
+  align-self: flex-start;
+  margin-left: 30.5rem;
+}
+
+.add-img {
+  display: flex;
+  align-items: center;
+}
+
+.add-img-campo {
+  width: 282px;
+  height: 152px;
+  border: 1px dashed #c8c8c8;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px;
+}
+
+.info-img {
+  color: #6b6b6b;
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 14px;
+  width: 218px;
+  text-align: center;
+  margin-top: 16px;
+}
+
+.ou {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 16px;
+  color: #464646;
+  margin: 0 8px;
+}
+
+.procurar-img {
+  width: 240px;
+  height: 50px;
+  border: 1px solid #2a7ae4;
+  color: #2a7ae4;
+  text-decoration: none;
+  padding-top: 11px;
+  padding-left: 18px;
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.procurar-img:hover {
+  background-color: #d4e4fa;
+}
+
+.add-nome,
+.add-preco {
+  width: 559px;
+  height: 56px;
+  background: #ffffff;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0px 1px #a2a2a2;
+  padding-top: 1.2rem;
+  padding-left: 0.8rem;
+}
+
+.add-label-nome,
+.add-label-preco {
+  font-family: "Raleway";
+  font-size: 12px;
+  left: -13.5rem;
+  position: relative;
+  top: 1.5rem;
+  color: #a2a2a2;
+}
+
+.add-descricao {
+  width: 559px;
+  height: 82px;
+  background: #ffffff;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0px 1px #a2a2a2;
+  padding-top: 1.8rem;
+  padding-left: 0.8rem;
+}
+
+.add-label-descricao {
+  font-family: "Raleway";
+  font-size: 14px;
+  left: -12.5rem;
+  position: relative;
+  top: 1.8rem;
+  color: #a2a2a2;
+}
+
+.btn-add {
+  width: 559px;
+  height: 51px;
+  background-color: #2a7ae4;
+  color: #ffffff;
+  border: none;
+  margin-top: 16px;
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.btn-add:hover {
+  background: #5595e9;
+}
